@@ -18,7 +18,7 @@ init() {
     -backend=s3 \
     -backend-config="bucket=${BUCKET}" \
     -backend-config="key=${PROJECT}/terraform.tfstate" \
-    -backend-config="region=us-east-1"
+    -backend-config="region=us-west-1"
  
 }
  
