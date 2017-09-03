@@ -42,4 +42,3 @@ node {
          body: "Jenkins job ${env.JOB_NAME} - build ${env.BUILD_NUMBER} complete"
   }
 }
-© 2017 GitHub, Inc.
