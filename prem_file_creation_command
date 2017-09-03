@@ -1,0 +1,3 @@
+openssl genpkey -algorithm RSA -out prasath.pem -pkeyopt rsa_keygen_bits:2048
+openssl rsa -p
+openssl rsa -pubout -in prasath.pem -out prasath_pub.pem
