@@ -1,5 +1,5 @@
 node {
- wrap([$class: 'AnsiColorBuildWrapper', colorMapName: 'xterm']) {
+ 
  
     // Mark the code checkout 'Checkout'....
     stage 'Checkout'
@@ -67,4 +67,4 @@ node {
                 }
             }
     }
-}
+
